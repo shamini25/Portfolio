@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Shamini Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+  <nav>
+
+    <h2 class="logo">Shamini</h2>
+
+    <ul>
+
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+  </nav>
+
+  <!-- HOME -->
+
+  <section id="home">
+
+    <div class="home-content">
+
+      <h1>Hi, I'm <span>SHAMINI</span></h1>
+
+      <h3>
+        Junior Software Developer | Full Stack Developer | AI Enthusiast
+      </h3>
+
+      <p>
+        Passionate developer with experience in AI chatbot development,
+        Full Stack Web Development, AWS Cloud, React.js, Python,
+        SQL Server, and modern responsive UI design.
+      </p>
+
+      <a href="Shamini G S_Resume.pdf" download>
+
+        <button class="btn">
+          Download Resume
+        </button>
+
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT -->
+
+  <section id="about">
+
+    <h2 class="section-title">About Me</h2>
+
+    <div class="about-container">
+
+      <div class="about-image">
+
+        <img src="about-pic.jpg" alt="Profile Image">
+
+      </div>
+
+      <div class="about-text">
+
+        <p>
+          MCA graduate currently working as a Junior Software Developer
+          with hands-on experience in .NET C#, SQL Server, React.js,
+          Python, ERP customization and AI chatbot development using RAG.
+        </p>
+
+        <p>
+          Interested in building scalable applications, AI-driven customer
+          support systems, cloud-based deployments and responsive UI/UX solutions.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+
+  <section id="skills">
+
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-container">
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+
+        <h3>HTML</h3>
+
+        <p>Semantic webpage structure and responsive web development.</p>
+
+      </div>
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+
+        <h3>CSS</h3>
+
+        <p>Modern responsive UI design and animations.</p>
+
+      </div>
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
+
+        <h3>JavaScript</h3>
+
+        <p>Interactive frontend functionality and DOM manipulation.</p>
+
+      </div>
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+
+        <h3>Python</h3>
+
+        <p>Backend logic, automation and AI integrations.</p>
+
+      </div>
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/873/873120.png">
+
+        <h3>AWS</h3>
+
+        <p>Cloud hosting and AWS deployment services.</p>
+
+      </div>
+
+      <div class="skill-card">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png">
+
+        <h3>SQL</h3>
+
+        <p>Database management and optimization.</p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section id="projects">
+
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-container">
+
+      <!-- PROJECT 1 -->
+
+      <div class="project-card">
+
+        <img src="Project-1.jpg">
+
+        <div class="project-content">
+
+          <h3>CX AI Chatbot</h3>
+
+          <p>
+            AI-powered customer support chatbot using RAG and NLP technologies.
+          </p>
+
+          <button class="project-btn" onclick="openModal('m1')">
+            View Project
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- PROJECT 2 -->
+
+      <div class="project-card">
+
+        <img src="Project-2.jpg">
+
+        <div class="project-content">
+
+          <h3>Cafe Management</h3>
+
+          <p>
+            Web application for billing and order management.
+          </p>
+
+          <button class="project-btn" onclick="openModal('m2')">
+            View Project
+          </button>
+
+        </div>
+
+      </div>
+
+      <!-- PROJECT 3 -->
+
+      <div class="project-card">
+
+        <img src="Project-3.jpg">
+
+        <div class="project-content">
+
+          <h3>AWS Hosting</h3>
+
+          <p>
+            Static website hosting using AWS cloud services.
+          </p>
+
+          <button class="project-btn" onclick="openModal('m3')">
+            View Project
+          </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- MODAL 1 -->
+
+<div id="m1" class="modal">
+
+  <div class="modal-content">
+
+    <span class="close" onclick="closeModal('m1')">&times;</span>
+
+    <h2>CX AI Chatbot</h2>
+
+    <!-- VIDEO -->
+
+    <div class="video-container">
+
+      <video controls>
+
+        <source src="cx-chatbot-demo.mp4" type="video/mp4">
+
+      </video>
+
+    </div>
+
+    <!-- DESCRIPTION -->
+
+    <div class="project-description">
+
+      <p>
+        The CX AI Chatbot is an intelligent AI-powered customer support assistant
+        developed using Retrieval-Augmented Generation (RAG) architecture and
+        Natural Language Processing technologies.
+      </p>
+
+      <p>
+        The chatbot understands customer queries, searches relevant information
+        from vector databases and generates accurate context-aware responses in real time.
+      </p>
+
+      <h3>Project Objective</h3>
+
+      <p>
+        To automate customer support operations and improve response accuracy,
+        reducing manual support effort and enhancing customer satisfaction.
+      </p>
+
+      <h3>Technologies Used</h3>
+
+      <ul>
+
+        <li>Python</li>
+        <li>LangChain Framework</li>
+        <li>OpenAI API</li>
+        <li>Pinecone Vector Database</li>
+        <li>Hugging Face Embeddings</li>
+        <li>AWS Cloud Services</li>
+
+      </ul>
+
+      <h3>Key Features</h3>
+
+      <ul>
+
+        <li>Real-time AI generated responses</li>
+        <li>Semantic similarity search</li>
+        <li>Retrieval-Augmented Generation (RAG)</li>
+        <li>Context-aware customer interaction</li>
+        <li>Cloud deployment support</li>
+        <li>Scalable vector database integration</li>
+
+      </ul>
+
+      <h3>My Contribution</h3>
+
+      <p>
+        Worked on backend development, prompt engineering, vector database handling,
+        API integration, NLP optimization and chatbot testing.
+      </p>
+
+      <h3>Project Outcome</h3>
+
+      <p>
+        Improved customer support efficiency and reduced response time
+        by providing intelligent automated assistance.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- MODAL 2 -->
+
+<div id="m2" class="modal">
+
+  <div class="modal-content">
+
+    <span class="close" onclick="closeModal('m2')">&times;</span>
+
+    <h2>Cafe Management System</h2>
+
+    <div class="project-description">
+
+      <p>
+        Developed a web-based Cafe Management System to manage customer orders,
+        billing operations and inventory handling efficiently.
+      </p>
+
+      <p>
+        The system helps automate cafe operations and improves order tracking
+        and billing management.
+      </p>
+
+      <h3>Project Objective</h3>
+
+      <p>
+        To simplify cafe billing and order management processes
+        using a responsive web application.
+      </p>
+
+      <h3>Technologies Used</h3>
+
+      <ul>
+
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>SQL Database</li>
+
+      </ul>
+
+      <h3>Key Features</h3>
+
+      <ul>
+
+        <li>Customer order management</li>
+        <li>Billing system generation</li>
+        <li>Inventory tracking</li>
+        <li>Database integration</li>
+        <li>Responsive user interface</li>
+
+      </ul>
+
+      <h3>My Contribution</h3>
+
+      <p>
+        Designed frontend UI, implemented database operations,
+        handled order management logic and testing.
+      </p>
+
+      <h3>Project Outcome</h3>
+
+      <p>
+        Reduced manual billing work and improved operational efficiency
+        for cafe management.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- MODAL 3 -->
+
+<div id="m3" class="modal">
+
+  <div class="modal-content">
+
+    <span class="close" onclick="closeModal('m3')">&times;</span>
+
+    <h2>AWS Static Website Hosting</h2>
+
+    <div class="project-description">
+
+      <p>
+        Designed and deployed a static portfolio website using AWS cloud services
+        for scalable and secure hosting.
+      </p>
+
+      <p>
+        The project demonstrates cloud deployment concepts using AWS S3 hosting
+        and public website configuration.
+      </p>
+
+      <h3>Project Objective</h3>
+
+      <p>
+        To understand cloud deployment, static website hosting and
+        AWS infrastructure management.
+      </p>
+
+      <h3>Technologies Used</h3>
+
+      <ul>
+
+        <li>AWS S3</li>
+        <li>Cloud Hosting</li>
+        <li>HTML</li>
+        <li>CSS</li>
+
+      </ul>
+
+      <h3>Key Features</h3>
+
+      <ul>
+
+        <li>Static website hosting</li>
+        <li>Cloud-based deployment</li>
+        <li>High availability</li>
+        <li>Public website access</li>
+        <li>Scalable hosting solution</li>
+
+      </ul>
+
+      <h3>My Contribution</h3>
+
+      <p>
+        Configured AWS S3 buckets, enabled static hosting,
+        managed permissions and deployed the application.
+      </p>
+
+      <h3>Project Outcome</h3>
+
+      <p>
+        Successfully hosted and deployed a scalable static website
+        using AWS cloud services.
+      </p>
+
+    </div>
+
+  </div>
+
+</div>
+
+  <!-- CONTACT -->
+
+  <section id="contact">
+
+    <h2 class="section-title">Contact</h2>
+
+    <form class="contact-form">
+
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="Your Email">
+
+      <textarea rows="5" placeholder="Your Message"></textarea>
+
+      <button class="btn">
+        Send Message
+      </button>
+
+    </form>
+
+  </section>
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>© 2026 Shamini Portfolio</p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
